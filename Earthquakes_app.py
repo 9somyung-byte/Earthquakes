@@ -19,8 +19,8 @@ if "analyzed" not in st.session_state:
 # 2. 데이터 및 모델 로드
 @st.cache_data
 def load_data():
-    # 파일명을 Earthquakes_ready.csv에서 Earthquakes.csv로 변경했습니다.
-    df = pd.read_csv("Earthquakes.csv")
+    # 파일명을 earthquake.csv로 최종 수정했습니다.
+    df = pd.read_csv("earthquake.csv")
     return df
 
 try:
