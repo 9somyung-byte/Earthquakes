@@ -7,7 +7,7 @@ import os
 
 # --- 1. 구글 드라이브 대용량 파일 다운로드 설정 ---
 # ⚠️ 중요: 아래 '본인의_구글_드라이브_파일_ID' 부분을 실제 파일 ID로 꼭 변경해 주세요!
-FILE_ID = '본인의_구글_드라이브_파일_ID' 
+FILE_ID = 'Earthquakes_ready.csv' 
 DATA_URL = f'https://drive.google.com/uc?export=download&id={FILE_ID}'
 
 # --- 2. 데이터 로딩 함수 (캐싱 적용으로 속도 향상) ---
